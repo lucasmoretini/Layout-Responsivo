@@ -1,0 +1,84 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  background-color: rgb(43, 42, 42);
+}
+
+#home {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../IMG/logo2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+  width: 35%;
+}
+
+.text-light {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+#textAboutACE {
+  font-size: 2.5vh;
+}
+
+#places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.place {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 350px;
+  width: 40%;
+}
+
+.place img {
+  width: 60vh;
+  height: 40vh;
+  border-radius: 5%;
+  margin-top: 10%;
+}
+
+.place p {
+  color: white;
+  width: 63%;
+  margin-bottom: 10%;
+  margin-top: 4%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.final {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+
+@media (max-width: 560px) {
+  .home-content {
+    width: 100%;
+  }
+}
